@@ -1,6 +1,6 @@
 typedef struct enigme
 {
-	int time:
+	int time;
 	SDL_Rect question_pos;
 	SDL_Surface *question[15];
 	SDL_Rect choix1_pos;
