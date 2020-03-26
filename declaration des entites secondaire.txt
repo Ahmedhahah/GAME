@@ -1,0 +1,15 @@
+void init_seconde_entite(med *m[],boss *b[],wiseman *w);
+{
+   b->boss[15]=IMG_Load("graphic/mario.png"); 
+   b->boss_pos.x = 300;
+   b->boss_pos.y = 300;
+   m->med[2]=IMG_Load("graphic/mario1.png"); 
+   m->med_pos.x = 300;
+   m->med_pos.y = 300;
+   w->w[15]=IMG_Load("graphic/mario2.png"); 
+   w->wiseman_pos.x = 300;
+   w->wiseman_pos.y = 300;
+    
+}
+
+
