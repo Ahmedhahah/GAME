@@ -1,0 +1,23 @@
+void collision_entre_2_entite(Will *hero, boss *b[])
+{ init_personnage( *hero);
+  init_seconde_entite(*m[],b*[],*w);
+gestion_vie_et_score(*p,*b[]);//initialisation score et vie
+if((image_pos.x+image_pos.w<boss_pos.x)||(image_pos.x>boss_pos.x+boss_pos.w)||(image_pos.y+image_pos.h<boss_pos.y)||(image_pos.y>boss_pos.y+boss_pos.h)
+collision=0;
+else
+collision=1;
+
+continuer=1;
+while(continuer)
+{
+if (collision)
+{// 3arka nitfahmou groupe chnowa yijra
+
+if(nbr_vie==0)
+continuer=0;}
+
+else continuer=1;
+}
+//liberation des ressources kifech ?
+
+}
