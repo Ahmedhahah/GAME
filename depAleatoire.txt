@@ -1,0 +1,20 @@
+
+int nbr =0 ;
+srand(time(NULL)); 
+nbr=(rand() % 1) ;
+if((positionjoueur.x - positionenemy.x) < 0) {
+switch (nbr){
+case 0 :
+     {
+
+      positionenemy.x -= 50;
+
+
+       break ;}
+case 1 :
+     { 
+
+      positionenemy.y -= 50;
+      break ;}
+}
+}
