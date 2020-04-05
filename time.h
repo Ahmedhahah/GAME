@@ -9,7 +9,18 @@
 #include <string.h>
 
 
-// pour la gestion du temps en main ; on va utiliser SDL_WM_SetCaption("Gestion du temps en SDL", NULL); int tempsPrecedent = 0, tempsActuel = 0 ;tempsActuel = SDL_GetTicks()  ; if(tempsActuel-tempsPrecedent >10){}
+
+//1s=1000 
+//30 min =1800000
+
+int tempsPrecedent = 0, tempsActuel = 0 ; // hedhi te7at fi awel el main
+
+tempsActuel = SDL_GetTicks(); // tet7at ba3d el while 
+ if(tempsActuel-tempsPrecedent >1800000) // tet7at fi e5er el while
+{done=0;
+
+printf("Time is up  \n") ;
+}
 
 void pause();
 
