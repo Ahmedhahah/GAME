@@ -7,7 +7,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-
+/* fel main zid int score=0  ; a chaque fois tsir collision score+= 1  ; w zid int sante=100  ;
+et int vie =3  ; while(tsir 3arka avec l enemie){ sante-=5 ;
+if(sante==0){vie-=1; sante=100;}} */
 void initTTF() ;
 void initialisationScore(int x , TTF_Font *font ,SDL_Surface *points ,SDL_Rect pospoints);
 
