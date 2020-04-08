@@ -10,18 +10,13 @@
 
 
 
-//1s=1000 
-//30 min =1800000
+int timeAct(int tempsActuel) ;
 
-int tempsPrecedent = 0, tempsActuel = 0 ; // hedhi te7at fi awel el main
 
-tempsActuel = SDL_GetTicks(); // tet7at ba3d el while 
- if(tempsActuel-tempsPrecedent >1800000) // tet7at fi e5er el while
-{done=0;
 
-printf("Time is up  \n") ;
-}
+int checktime(int tempsActuel , int tempsPrecedent);
 
 void pause();
 
 #endif
+
