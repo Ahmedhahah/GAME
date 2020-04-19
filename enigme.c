@@ -49,63 +49,63 @@ void resolution_enigme(enigme *e[],int stage)
 	case SDL_MOUSEBUTTONUP:
 	if ((100<=event.button.x && event.button.x<=300)&&(450<=event.button.y && event.button.y<=500)&& stage==0)
 	{
-		SDL_BlitSurface(e->question[stage],NULL,screen,&question_pos);
+		
 		SDL_BlitSurface(w->wiseman[10],NULL,screen,&wiseman_pos);
       	SDL_BlitSurface(e->reponse[0],NULL,screen,&Pos_reponse);
       	SDL_Flip(screen);
 	}
 	else if ((350<=event.button.x && event.button.x<=450)&&(450<=event.button.y && event.button.y<=500)&& stage==0)
 	{
-		SDL_BlitSurface(e->question[stage],NULL,screen,&question_pos);
+		
 		SDL_BlitSurface(w->wiseman[10],NULL,screen,&wiseman_pos);
       	SDL_BlitSurface(e->reponse[0],NULL,screen,&Pos_reponse);
       	SDL_Flip(screen);
 	}
 	else if ((600<=event.button.x && event.button.x<=800)&&(450<=event.button.y && event.button.y<=500)&& stage==0)
 	{
-		SDL_BlitSurface(e->question[stage],NULL,screen,&question_pos);
+		
 		SDL_BlitSurface(w->wiseman[10],NULL,screen,&wiseman_pos);
       	SDL_BlitSurface(e->reponse[1],NULL,screen,&Pos_reponse);
       	SDL_Flip(screen);
 	}
 	else if ((100<=event.button.x && event.button.x<=300)&&(450<=event.button.y && event.button.y<=500)&& stage==1)
 	{
-		SDL_BlitSurface(e->question[stage],NULL,screen,&question_pos);
+		
 		SDL_BlitSurface(w->wiseman[10],NULL,screen,&wiseman_pos);
       	SDL_BlitSurface(e->reponse[0],NULL,screen,&Pos_reponse);
       	SDL_Flip(screen);
 	}
 	else if ((350<=event.button.x && event.button.x<=450)&&(450<=event.button.y && event.button.y<=500)&& stage==1)
 	{
-		SDL_BlitSurface(e->question[stage],NULL,screen,&question_pos);
+		
 		SDL_BlitSurface(w->wiseman[10],NULL,screen,&wiseman_pos);
       	SDL_BlitSurface(e->reponse[1],NULL,screen,&Pos_reponse);
       	SDL_Flip(screen);
 	}
 	else if ((600<=event.button.x && event.button.x<=800)&&(450<=event.button.y && event.button.y<=500)&& stage==1)
 	{
-		SDL_BlitSurface(e->question[stage],NULL,screen,&question_pos);
+		
 		SDL_BlitSurface(w->wiseman[10],NULL,screen,&wiseman_pos);
       	SDL_BlitSurface(e->reponse[0],NULL,screen,&Pos_reponse);
       	SDL_Flip(screen);
 	}
 	else if ((100<=event.button.x && event.button.x<=300)&&(450<=event.button.y && event.button.y<=500)&& stage==2)
 	{
-		SDL_BlitSurface(e->question[stage],NULL,screen,&question_pos);
+		
 		SDL_BlitSurface(w->wiseman[10],NULL,screen,&wiseman_pos);
       	SDL_BlitSurface(e->reponse[0],NULL,screen,&Pos_reponse);
       	SDL_Flip(screen);
 	}
 	else if ((350<=event.button.x && event.button.x<=450)&&(450<=event.button.y && event.button.y<=500)&& stage==2)
 	{
-		SDL_BlitSurface(e->question[stage],NULL,screen,&question_pos);
+		
 		SDL_BlitSurface(w->wiseman[10],NULL,screen,&wiseman_pos);
       	SDL_BlitSurface(e->reponse[0],NULL,screen,&Pos_reponse);
       	SDL_Flip(screen);
 	}
 	else if ((600<=event.button.x && event.button.x<=800)&&(450<=event.button.y && event.button.y<=500)&& stage==3)
 	{
-		SDL_BlitSurface(e->question[stage],NULL,screen,&question_pos);
+		
 		SDL_BlitSurface(w->wiseman[10],NULL,screen,&wiseman_pos);
       	SDL_BlitSurface(e->reponse[1],NULL,screen,&Pos_reponse);
       	SDL_Flip(screen);
