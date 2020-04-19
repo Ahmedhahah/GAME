@@ -1,5 +1,6 @@
 #include"wiseman.h"
 #include"enigme.h"
+#include"map.h"
 void init_enigme(enigme *e[])
 {
 			e->question[0]=IMG_Load("graphic/q0.png");
