@@ -43,6 +43,10 @@ void afficher_enigme(enigme *e[] ,int stage,map background,wiseman w)
 }
 void resolution_enigme(enigme *e[],int stage)
 {
+	SDL_Event event;
+	switch(event.type)
+	{
+	case SDL_MOUSEBUTTONUP:
 	if ((100<=event.button.x && event.button.x<=300)&&(450<=event.button.y && event.button.y<=500)&& stage==0)
 	{
 		SDL_BlitSurface(e->question[stage],NULL,screen,&question_pos);
@@ -64,7 +68,7 @@ void resolution_enigme(enigme *e[],int stage)
       	SDL_BlitSurface(e->reponse[1],NULL,screen,&Pos_reponse);
       	SDL_Flip(screen);
 	}
-	else if ((100<=event.button.x && event.button.x<=300)&&(450<=event.button.y && event.button.y<=500)&& stage==11)
+	else if ((100<=event.button.x && event.button.x<=300)&&(450<=event.button.y && event.button.y<=500)&& stage==1)
 	{
 		SDL_BlitSurface(e->question[stage],NULL,screen,&question_pos);
 		SDL_BlitSurface(w->wiseman[10],NULL,screen,&wiseman_pos);
@@ -105,5 +109,6 @@ void resolution_enigme(enigme *e[],int stage)
 		SDL_BlitSurface(w->wiseman[10],NULL,screen,&wiseman_pos);
       	SDL_BlitSurface(e->reponse[1],NULL,screen,&Pos_reponse);
       	SDL_Flip(screen);
+	}
 	}
 }
